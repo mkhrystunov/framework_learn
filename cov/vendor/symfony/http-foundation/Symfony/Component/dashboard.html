@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/framework/vendor/symfony/http-foundation/Symfony/Component</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../../css/nv.d3.css" rel="stylesheet">
+  <link href="../../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../../index.html">/var/www/framework</a></li>
+        <li><a href="../../../../index.html">vendor</a></li>
+        <li><a href="../../../index.html">symfony</a></li>
+        <li><a href="../../index.html">http-foundation</a></li>
+        <li><a href="../index.html">Symfony</a></li>
+        <li><a href="index.html">Component</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="HttpFoundation/Response.php.html#21">Response</a></td><td class="text-right">10%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#31">Request</a></td><td class="text-right">11%</td></tr>
+       <tr><td><a href="HttpFoundation/FileBag.php.html#24">FileBag</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#21">ResponseHeaderBag</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#21">ParameterBag</a></td><td class="text-right">18%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#21">HeaderBag</a></td><td class="text-right">24%</td></tr>
+       <tr><td><a href="HttpFoundation/ServerBag.php.html#21">ServerBag</a></td><td class="text-right">34%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="HttpFoundation/Request.php.html#31">Request</a></td><td class="text-right">32923</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#21">Response</a></td><td class="text-right">14224</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#21">ResponseHeaderBag</a></td><td class="text-right">1156</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#21">HeaderBag</a></td><td class="text-right">879</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#21">ParameterBag</a></td><td class="text-right">629</td></tr>
+       <tr><td><a href="HttpFoundation/FileBag.php.html#24">FileBag</a></td><td class="text-right">227</td></tr>
+       <tr><td><a href="HttpFoundation/ServerBag.php.html#21">ServerBag</a></td><td class="text-right">52</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="HttpFoundation/Response.php.html#464"><abbr title="Response::setCharset">setCharset</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#478"><abbr title="Response::getCharset">getCharset</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#496"><abbr title="Response::isCacheable">isCacheable</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#399"><abbr title="Response::getProtocolVersion">getProtocolVersion</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#318"><abbr title="Response::send">send</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#206"><abbr title="Response::prepare">prepare</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#274"><abbr title="Response::sendHeaders">sendHeaders</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#304"><abbr title="Response::sendContent">sendContent</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#520"><abbr title="Response::isFresh">isFresh</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#533"><abbr title="Response::isValidateable">isValidateable</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#625"><abbr title="Response::getAge">getAge</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#641"><abbr title="Response::expire">expire</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#657"><abbr title="Response::getExpires">getExpires</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#598"><abbr title="Response::getDate">getDate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#584"><abbr title="Response::mustRevalidate">mustRevalidate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#547"><abbr title="Response::setPrivate">setPrivate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#564"><abbr title="Response::setPublic">setPublic</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#190"><abbr title="Response::__clone">__clone</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#179"><abbr title="Response::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1313"><abbr title="Request::isNoCache">isNoCache</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1327"><abbr title="Request::getPreferredLanguage">getPreferredLanguage</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1362"><abbr title="Request::getLanguages">getLanguages</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1305"><abbr title="Request::getETags">getETags</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1281"><abbr title="Request::getContent">getContent</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1245"><abbr title="Request::getLocale">getLocale</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1257"><abbr title="Request::isMethod">isMethod</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/FileBag.php.html#56"><abbr title="FileBag::set">set</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1404"><abbr title="Request::getCharsets">getCharsets</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1420"><abbr title="Request::getAcceptableContentTypes">getAcceptableContentTypes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1682"><abbr title="Request::setPhpDefaultLocale">setPhpDefaultLocale</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1704"><abbr title="Request::getUrlencodedPrefix">getUrlencodedPrefix</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#163"><abbr title="Response::create">create</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1662"><abbr title="Request::initializeFormats">initializeFormats</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1608"><abbr title="Request::prepareBasePath">prepareBasePath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1440"><abbr title="Request::isXmlHttpRequest">isXmlHttpRequest</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1452"><abbr title="Request::splitHttpAcceptHeader">splitHttpAcceptHeader</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#678"><abbr title="Response::setExpires">setExpires</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#702"><abbr title="Response::getMaxAge">getMaxAge</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1162"><abbr title="Response::isRedirect">isRedirect</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1174"><abbr title="Response::isEmpty">isEmpty</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#58"><abbr title="ResponseHeaderBag::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1148"><abbr title="Response::isNotFound">isNotFound</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1136"><abbr title="Response::isForbidden">isForbidden</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1100"><abbr title="Response::isClientError">isClientError</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1112"><abbr title="Response::isServerError">isServerError</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1124"><abbr title="Response::isOk">isOk</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#73"><abbr title="ResponseHeaderBag::replace">replace</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#104"><abbr title="ResponseHeaderBag::remove">remove</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#178"><abbr title="ResponseHeaderBag::getCookies">getCookies</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#209"><abbr title="ResponseHeaderBag::clearCookie">clearCookie</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#228"><abbr title="ResponseHeaderBag::makeDisposition">makeDisposition</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#150"><abbr title="ResponseHeaderBag::removeCookie">removeCookie</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#136"><abbr title="ResponseHeaderBag::setCookie">setCookie</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#116"><abbr title="ResponseHeaderBag::hasCacheControlDirective">hasCacheControlDirective</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#124"><abbr title="ResponseHeaderBag::getCacheControlDirective">getCacheControlDirective</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1088"><abbr title="Response::isRedirection">isRedirection</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1076"><abbr title="Response::isSuccessful">isSuccessful</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#806"><abbr title="Response::setClientTtl">setClientTtl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#822"><abbr title="Response::getLastModified">getLastModified</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#838"><abbr title="Response::setLastModified">setLastModified</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#788"><abbr title="Response::setTtl">setTtl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#768"><abbr title="Response::getTtl">getTtl</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#730"><abbr title="Response::setMaxAge">setMaxAge</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#748"><abbr title="Response::setSharedMaxAge">setSharedMaxAge</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#858"><abbr title="Response::getEtag">getEtag</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#873"><abbr title="Response::setEtag">setEtag</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1003"><abbr title="Response::setVary">setVary</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1023"><abbr title="Response::isNotModified">isNotModified</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1064"><abbr title="Response::isInformational">isInformational</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#984"><abbr title="Response::getVary">getVary</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#972"><abbr title="Response::hasVary">hasVary</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#899"><abbr title="Response::setCache">setCache</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#952"><abbr title="Response::setNotModified">setNotModified</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1235"><abbr title="Request::setLocale">setLocale</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1269"><abbr title="Request::isMethodSafe">isMethodSafe</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#249"><abbr title="ParameterBag::getInt">getInt</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#267"><abbr title="ParameterBag::filter">filter</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#289"><abbr title="ParameterBag::getIterator">getIterator</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#232"><abbr title="ParameterBag::getDigits">getDigits</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#216"><abbr title="ParameterBag::getAlnum">getAlnum</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#73"><abbr title="ParameterBag::replace">replace</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#184"><abbr title="ParameterBag::remove">remove</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#200"><abbr title="ParameterBag::getAlpha">getAlpha</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#299"><abbr title="ParameterBag::count">count</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#247"><abbr title="Request::createFromGlobals">createFromGlobals</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#443"><abbr title="Request::overrideGlobals">overrideGlobals</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#475"><abbr title="Request::trustProxyData">trustProxyData</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1219"><abbr title="Request::setDefaultLocale">setDefaultLocale</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#427"><abbr title="Request::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#411"><abbr title="Request::__clone">__clone</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#276"><abbr title="Request::create">create</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#370"><abbr title="Request::duplicate">duplicate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#61"><abbr title="ParameterBag::keys">keys</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#289"><abbr title="HeaderBag::getCacheControlHeader">getCacheControlHeader</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#97"><abbr title="HeaderBag::replace">replace</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#110"><abbr title="HeaderBag::add">add</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#128"><abbr title="HeaderBag::get">get</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#85"><abbr title="HeaderBag::keys">keys</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#73"><abbr title="HeaderBag::all">all</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/FileBag.php.html#84"><abbr title="FileBag::convertFileInformation">convertFileInformation</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/FileBag.php.html#125"><abbr title="FileBag::fixPhpFilesArray">fixPhpFilesArray</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#47"><abbr title="HeaderBag::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#197"><abbr title="HeaderBag::contains">contains</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#209"><abbr title="HeaderBag::remove">remove</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#262"><abbr title="HeaderBag::removeCacheControlDirective">removeCacheControlDirective</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#274"><abbr title="HeaderBag::getIterator">getIterator</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#284"><abbr title="HeaderBag::count">count</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#257"><abbr title="HeaderBag::getCacheControlDirective">getCacheControlDirective</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#252"><abbr title="HeaderBag::hasCacheControlDirective">hasCacheControlDirective</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#232"><abbr title="HeaderBag::getDate">getDate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#245"><abbr title="HeaderBag::addCacheControlDirective">addCacheControlDirective</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#504"><abbr title="Request::anonymous function">anonymous function</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#489"><abbr title="Request::setTrustedProxies">setTrustedProxies</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#960"><abbr title="Request::getUriForPath">getUriForPath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#975"><abbr title="Request::getQueryString">getQueryString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#998"><abbr title="Request::isSecure">isSecure</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#941"><abbr title="Request::getUri">getUri</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#927"><abbr title="Request::getSchemeAndHttpHost">getSchemeAndHttpHost</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#870"><abbr title="Request::getUserInfo">getUserInfo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#516"><abbr title="Request::getTrustedHosts">getTrustedHosts</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1024"><abbr title="Request::getHost">getHost</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1074"><abbr title="Request::setMethod">setMethod</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1179"><abbr title="Request::getRequestFormat">getRequestFormat</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1195"><abbr title="Request::setRequestFormat">setRequestFormat</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1207"><abbr title="Request::getContentType">getContentType</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1155"><abbr title="Request::setFormat">setFormat</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1128"><abbr title="Request::getFormat">getFormat</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1089"><abbr title="Request::getMethod">getMethod</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1110"><abbr title="Request::getMimeType">getMimeType</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#860"><abbr title="Request::getPassword">getPassword</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#891"><abbr title="Request::getHttpHost">getHttpHost</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#551"><abbr title="Request::isProxyTrusted">isProxyTrusted</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#620"><abbr title="Request::get">get</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#700"><abbr title="Request::getClientIp">getClientIp</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#674"><abbr title="Request::setSession">setSession</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#645"><abbr title="Request::hasPreviousSession">hasPreviousSession</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#662"><abbr title="Request::hasSession">hasSession</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#632"><abbr title="Request::getSession">getSession</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#566"><abbr title="Request::normalizeQueryString">normalizeQueryString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#810"><abbr title="Request::getScheme">getScheme</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#830"><abbr title="Request::getPort">getPort</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#729"><abbr title="Request::getScriptName">getScriptName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#773"><abbr title="Request::getBasePath">getBasePath</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#536"><abbr title="Request::setTrustedHeaderName">setTrustedHeaderName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#850"><abbr title="Request::getUser">getUser</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#101"><abbr title="ParameterBag::get">get</a></a></td><td class="text-right">7%</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#270"><abbr title="ResponseHeaderBag::computeCacheControlValue">computeCacheControlValue</a></a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1495"><abbr title="Request::prepareRequestUri">prepareRequestUri</a></a></td><td class="text-right">27%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1542"><abbr title="Request::prepareBaseUrl">prepareBaseUrl</a></a></td><td class="text-right">34%</td></tr>
+       <tr><td><a href="HttpFoundation/ServerBag.php.html#28"><abbr title="ServerBag::getHeaders">getHeaders</a></a></td><td class="text-right">34%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#419"><abbr title="Response::setStatusCode">setStatusCode</a></a></td><td class="text-right">45%</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1634"><abbr title="Request::preparePathInfo">preparePathInfo</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#353"><abbr title="Response::setContent">setContent</a></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="HttpFoundation/FileBag.php.html#70"><abbr title="FileBag::add">add</a></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#33"><abbr title="HeaderBag::__construct">__construct</a></a></td><td class="text-right">83%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="HttpFoundation/Response.php.html#206"><abbr title="Response::prepare">prepare</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#276"><abbr title="Request::create">create</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#101"><abbr title="ParameterBag::get">get</abbr></a></td><td class="text-right">170</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1024"><abbr title="Request::getHost">getHost</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#899"><abbr title="Response::setCache">setCache</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#228"><abbr title="ResponseHeaderBag::makeDisposition">makeDisposition</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1542"><abbr title="Request::prepareBaseUrl">prepareBaseUrl</abbr></a></td><td class="text-right">99</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1327"><abbr title="Request::getPreferredLanguage">getPreferredLanguage</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1362"><abbr title="Request::getLanguages">getLanguages</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#318"><abbr title="Response::send">send</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1023"><abbr title="Response::isNotModified">isNotModified</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1452"><abbr title="Request::splitHttpAcceptHeader">splitHttpAcceptHeader</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#700"><abbr title="Request::getClientIp">getClientIp</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#128"><abbr title="HeaderBag::get">get</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#370"><abbr title="Request::duplicate">duplicate</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="HttpFoundation/FileBag.php.html#125"><abbr title="FileBag::fixPhpFilesArray">fixPhpFilesArray</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="HttpFoundation/ServerBag.php.html#28"><abbr title="ServerBag::getHeaders">getHeaders</abbr></a></td><td class="text-right">52</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#270"><abbr title="ResponseHeaderBag::computeCacheControlValue">computeCacheControlValue</abbr></a></td><td class="text-right">50</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#178"><abbr title="ResponseHeaderBag::getCookies">getCookies</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#830"><abbr title="Request::getPort">getPort</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1281"><abbr title="Request::getContent">getContent</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#566"><abbr title="Request::normalizeQueryString">normalizeQueryString</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#443"><abbr title="Request::overrideGlobals">overrideGlobals</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1495"><abbr title="Request::prepareRequestUri">prepareRequestUri</abbr></a></td><td class="text-right">39</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1128"><abbr title="Request::getFormat">getFormat</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#274"><abbr title="Response::sendHeaders">sendHeaders</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#496"><abbr title="Response::isCacheable">isCacheable</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#998"><abbr title="Request::isSecure">isSecure</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="HttpFoundation/ParameterBag.php.html#267"><abbr title="ParameterBag::filter">filter</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#891"><abbr title="Request::getHttpHost">getHttpHost</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="HttpFoundation/FileBag.php.html#84"><abbr title="FileBag::convertFileInformation">convertFileInformation</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#873"><abbr title="Response::setEtag">setEtag</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1608"><abbr title="Request::prepareBasePath">prepareBasePath</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#47"><abbr title="HeaderBag::__toString">__toString</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#150"><abbr title="ResponseHeaderBag::removeCookie">removeCookie</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#289"><abbr title="HeaderBag::getCacheControlHeader">getCacheControlHeader</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#702"><abbr title="Response::getMaxAge">getMaxAge</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#232"><abbr title="HeaderBag::getDate">getDate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HttpFoundation/FileBag.php.html#56"><abbr title="FileBag::set">set</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#247"><abbr title="Request::createFromGlobals">createFromGlobals</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1704"><abbr title="Request::getUrlencodedPrefix">getUrlencodedPrefix</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1110"><abbr title="Request::getMimeType">getMimeType</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1089"><abbr title="Request::getMethod">getMethod</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#984"><abbr title="Response::getVary">getVary</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1155"><abbr title="Request::setFormat">setFormat</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1682"><abbr title="Request::setPhpDefaultLocale">setPhpDefaultLocale</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1162"><abbr title="Response::isRedirect">isRedirect</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1634"><abbr title="Request::preparePathInfo">preparePathInfo</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#419"><abbr title="Response::setStatusCode">setStatusCode</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#768"><abbr title="Response::getTtl">getTtl</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#838"><abbr title="Response::setLastModified">setLastModified</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#952"><abbr title="Response::setNotModified">setNotModified</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1076"><abbr title="Response::isSuccessful">isSuccessful</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1112"><abbr title="Response::isServerError">isServerError</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#678"><abbr title="Response::setExpires">setExpires</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1088"><abbr title="Response::isRedirection">isRedirection</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1064"><abbr title="Response::isInformational">isInformational</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#58"><abbr title="ResponseHeaderBag::__toString">__toString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#1100"><abbr title="Response::isClientError">isClientError</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#104"><abbr title="ResponseHeaderBag::remove">remove</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#73"><abbr title="ResponseHeaderBag::replace">replace</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/ResponseHeaderBag.php.html#124"><abbr title="ResponseHeaderBag::getCacheControlDirective">getCacheControlDirective</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1404"><abbr title="Request::getCharsets">getCharsets</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#773"><abbr title="Request::getBasePath">getBasePath</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#810"><abbr title="Request::getScheme">getScheme</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#870"><abbr title="Request::getUserInfo">getUserInfo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#941"><abbr title="Request::getUri">getUri</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#645"><abbr title="Request::hasPreviousSession">hasPreviousSession</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#536"><abbr title="Request::setTrustedHeaderName">setTrustedHeaderName</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#110"><abbr title="HeaderBag::add">add</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#209"><abbr title="HeaderBag::remove">remove</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#257"><abbr title="HeaderBag::getCacheControlDirective">getCacheControlDirective</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#489"><abbr title="Request::setTrustedProxies">setTrustedProxies</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#657"><abbr title="Response::getExpires">getExpires</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#975"><abbr title="Request::getQueryString">getQueryString</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#533"><abbr title="Response::isValidateable">isValidateable</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#584"><abbr title="Response::mustRevalidate">mustRevalidate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#625"><abbr title="Response::getAge">getAge</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1179"><abbr title="Request::getRequestFormat">getRequestFormat</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1420"><abbr title="Request::getAcceptableContentTypes">getAcceptableContentTypes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1219"><abbr title="Request::setDefaultLocale">setDefaultLocale</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1245"><abbr title="Request::getLocale">getLocale</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Request.php.html#1313"><abbr title="Request::isNoCache">isNoCache</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#641"><abbr title="Response::expire">expire</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HttpFoundation/Response.php.html#353"><abbr title="Response::setContent">setContent</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="HttpFoundation/FileBag.php.html#70"><abbr title="FileBag::add">add</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="HttpFoundation/HeaderBag.php.html#33"><abbr title="HeaderBag::__construct">__construct</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.0.15</a> using <a href="http://php.net/" target="_top">PHP 5.5.12-2ubuntu4.2</a> and <a href="http://phpunit.de/">PHPUnit 4.5.0</a> at Thu Feb 26 19:34:38 EET 2015.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/holder.js" type="text/javascript"></script>
+  <script src="../../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,5,1,1,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([145,1,0,2,2,1,1,0,2,1,1,23], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[16.666666666667,19,"<a href=\"HttpFoundation\/FileBag.php.html#24\">FileBag<\/a>"],[24.418604651163,44,"<a href=\"HttpFoundation\/HeaderBag.php.html#21\">HeaderBag<\/a>"],[18.181818181818,33,"<a href=\"HttpFoundation\/ParameterBag.php.html#21\">ParameterBag<\/a>"],[11.439842209073,217,"<a href=\"HttpFoundation\/Request.php.html#31\">Request<\/a>"],[10,139,"<a href=\"HttpFoundation\/Response.php.html#21\">Response<\/a>"],[16.867469879518,44,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#21\">ResponseHeaderBag<\/a>"],[34.48275862069,12,"<a href=\"HttpFoundation\/ServerBag.php.html#21\">ServerBag<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"HttpFoundation\/FileBag.php.html#35\">FileBag::__construct<\/a>"],[100,1,"<a href=\"HttpFoundation\/FileBag.php.html#45\">FileBag::replace<\/a>"],[0,3,"<a href=\"HttpFoundation\/FileBag.php.html#56\">FileBag::set<\/a>"],[75,2,"<a href=\"HttpFoundation\/FileBag.php.html#70\">FileBag::add<\/a>"],[0,5,"<a href=\"HttpFoundation\/FileBag.php.html#84\">FileBag::convertFileInformation<\/a>"],[0,7,"<a href=\"HttpFoundation\/FileBag.php.html#125\">FileBag::fixPhpFilesArray<\/a>"],[83.333333333333,2,"<a href=\"HttpFoundation\/HeaderBag.php.html#33\">HeaderBag::__construct<\/a>"],[0,4,"<a href=\"HttpFoundation\/HeaderBag.php.html#47\">HeaderBag::__toString<\/a>"],[0,1,"<a href=\"HttpFoundation\/HeaderBag.php.html#73\">HeaderBag::all<\/a>"],[0,1,"<a href=\"HttpFoundation\/HeaderBag.php.html#85\">HeaderBag::keys<\/a>"],[0,1,"<a href=\"HttpFoundation\/HeaderBag.php.html#97\">HeaderBag::replace<\/a>"],[0,2,"<a href=\"HttpFoundation\/HeaderBag.php.html#110\">HeaderBag::add<\/a>"],[0,7,"<a href=\"HttpFoundation\/HeaderBag.php.html#128\">HeaderBag::get<\/a>"],[90,4,"<a href=\"HttpFoundation\/HeaderBag.php.html#156\">HeaderBag::set<\/a>"],[100,1,"<a href=\"HttpFoundation\/HeaderBag.php.html#182\">HeaderBag::has<\/a>"],[0,1,"<a href=\"HttpFoundation\/HeaderBag.php.html#197\">HeaderBag::contains<\/a>"],[0,2,"<a href=\"HttpFoundation\/HeaderBag.php.html#209\">HeaderBag::remove<\/a>"],[0,3,"<a href=\"HttpFoundation\/HeaderBag.php.html#232\">HeaderBag::getDate<\/a>"],[0,1,"<a href=\"HttpFoundation\/HeaderBag.php.html#245\">HeaderBag::addCacheControlDirective<\/a>"],[0,1,"<a href=\"HttpFoundation\/HeaderBag.php.html#252\">HeaderBag::hasCacheControlDirective<\/a>"],[0,2,"<a href=\"HttpFoundation\/HeaderBag.php.html#257\">HeaderBag::getCacheControlDirective<\/a>"],[0,1,"<a href=\"HttpFoundation\/HeaderBag.php.html#262\">HeaderBag::removeCacheControlDirective<\/a>"],[0,1,"<a href=\"HttpFoundation\/HeaderBag.php.html#274\">HeaderBag::getIterator<\/a>"],[0,1,"<a href=\"HttpFoundation\/HeaderBag.php.html#284\">HeaderBag::count<\/a>"],[0,4,"<a href=\"HttpFoundation\/HeaderBag.php.html#289\">HeaderBag::getCacheControlHeader<\/a>"],[100,4,"<a href=\"HttpFoundation\/HeaderBag.php.html#315\">HeaderBag::parseCacheControl<\/a>"],[100,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#37\">ParameterBag::__construct<\/a>"],[100,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#49\">ParameterBag::all<\/a>"],[0,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#61\">ParameterBag::keys<\/a>"],[0,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#73\">ParameterBag::replace<\/a>"],[100,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#85\">ParameterBag::add<\/a>"],[7.1428571428571,14,"<a href=\"HttpFoundation\/ParameterBag.php.html#101\">ParameterBag::get<\/a>"],[100,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#158\">ParameterBag::set<\/a>"],[100,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#172\">ParameterBag::has<\/a>"],[0,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#184\">ParameterBag::remove<\/a>"],[0,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#200\">ParameterBag::getAlpha<\/a>"],[0,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#216\">ParameterBag::getAlnum<\/a>"],[0,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#232\">ParameterBag::getDigits<\/a>"],[0,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#249\">ParameterBag::getInt<\/a>"],[0,5,"<a href=\"HttpFoundation\/ParameterBag.php.html#267\">ParameterBag::filter<\/a>"],[0,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#289\">ParameterBag::getIterator<\/a>"],[0,1,"<a href=\"HttpFoundation\/ParameterBag.php.html#299\">ParameterBag::count<\/a>"],[100,1,"<a href=\"HttpFoundation\/Request.php.html#198\">Request::__construct<\/a>"],[100,1,"<a href=\"HttpFoundation\/Request.php.html#218\">Request::initialize<\/a>"],[0,3,"<a href=\"HttpFoundation\/Request.php.html#247\">Request::createFromGlobals<\/a>"],[0,14,"<a href=\"HttpFoundation\/Request.php.html#276\">Request::create<\/a>"],[0,7,"<a href=\"HttpFoundation\/Request.php.html#370\">Request::duplicate<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#411\">Request::__clone<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#427\">Request::__toString<\/a>"],[0,6,"<a href=\"HttpFoundation\/Request.php.html#443\">Request::overrideGlobals<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#475\">Request::trustProxyData<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#489\">Request::setTrustedProxies<\/a>"],[100,1,"<a href=\"HttpFoundation\/Request.php.html#502\">Request::setTrustedHosts<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#504\">Request::anonymous function<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#516\">Request::getTrustedHosts<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#536\">Request::setTrustedHeaderName<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#551\">Request::isProxyTrusted<\/a>"],[0,6,"<a href=\"HttpFoundation\/Request.php.html#566\">Request::normalizeQueryString<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#620\">Request::get<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#632\">Request::getSession<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#645\">Request::hasPreviousSession<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#662\">Request::hasSession<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#674\">Request::setSession<\/a>"],[0,7,"<a href=\"HttpFoundation\/Request.php.html#700\">Request::getClientIp<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#729\">Request::getScriptName<\/a>"],[100,2,"<a href=\"HttpFoundation\/Request.php.html#750\">Request::getPathInfo<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#773\">Request::getBasePath<\/a>"],[100,2,"<a href=\"HttpFoundation\/Request.php.html#794\">Request::getBaseUrl<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#810\">Request::getScheme<\/a>"],[0,6,"<a href=\"HttpFoundation\/Request.php.html#830\">Request::getPort<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#850\">Request::getUser<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#860\">Request::getPassword<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#870\">Request::getUserInfo<\/a>"],[0,5,"<a href=\"HttpFoundation\/Request.php.html#891\">Request::getHttpHost<\/a>"],[100,2,"<a href=\"HttpFoundation\/Request.php.html#910\">Request::getRequestUri<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#927\">Request::getSchemeAndHttpHost<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#941\">Request::getUri<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#960\">Request::getUriForPath<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#975\">Request::getQueryString<\/a>"],[0,5,"<a href=\"HttpFoundation\/Request.php.html#998\">Request::isSecure<\/a>"],[0,12,"<a href=\"HttpFoundation\/Request.php.html#1024\">Request::getHost<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#1074\">Request::setMethod<\/a>"],[0,3,"<a href=\"HttpFoundation\/Request.php.html#1089\">Request::getMethod<\/a>"],[0,3,"<a href=\"HttpFoundation\/Request.php.html#1110\">Request::getMimeType<\/a>"],[0,5,"<a href=\"HttpFoundation\/Request.php.html#1128\">Request::getFormat<\/a>"],[0,3,"<a href=\"HttpFoundation\/Request.php.html#1155\">Request::setFormat<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#1179\">Request::getRequestFormat<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#1195\">Request::setRequestFormat<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#1207\">Request::getContentType<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#1219\">Request::setDefaultLocale<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#1235\">Request::setLocale<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#1245\">Request::getLocale<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#1257\">Request::isMethod<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#1269\">Request::isMethodSafe<\/a>"],[0,6,"<a href=\"HttpFoundation\/Request.php.html#1281\">Request::getContent<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#1305\">Request::getETags<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#1313\">Request::isNoCache<\/a>"],[0,8,"<a href=\"HttpFoundation\/Request.php.html#1327\">Request::getPreferredLanguage<\/a>"],[0,8,"<a href=\"HttpFoundation\/Request.php.html#1362\">Request::getLanguages<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#1404\">Request::getCharsets<\/a>"],[0,2,"<a href=\"HttpFoundation\/Request.php.html#1420\">Request::getAcceptableContentTypes<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#1440\">Request::isXmlHttpRequest<\/a>"],[0,7,"<a href=\"HttpFoundation\/Request.php.html#1452\">Request::splitHttpAcceptHeader<\/a>"],[27.586206896552,9,"<a href=\"HttpFoundation\/Request.php.html#1495\">Request::prepareRequestUri<\/a>"],[34.285714285714,17,"<a href=\"HttpFoundation\/Request.php.html#1542\">Request::prepareBaseUrl<\/a>"],[0,4,"<a href=\"HttpFoundation\/Request.php.html#1608\">Request::prepareBasePath<\/a>"],[50,6,"<a href=\"HttpFoundation\/Request.php.html#1634\">Request::preparePathInfo<\/a>"],[0,1,"<a href=\"HttpFoundation\/Request.php.html#1662\">Request::initializeFormats<\/a>"],[0,3,"<a href=\"HttpFoundation\/Request.php.html#1682\">Request::setPhpDefaultLocale<\/a>"],[0,3,"<a href=\"HttpFoundation\/Request.php.html#1704\">Request::getUrlencodedPrefix<\/a>"],[100,2,"<a href=\"HttpFoundation\/Response.php.html#138\">Response::__construct<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#163\">Response::create<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#179\">Response::__toString<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#190\">Response::__clone<\/a>"],[0,20,"<a href=\"HttpFoundation\/Response.php.html#206\">Response::prepare<\/a>"],[0,5,"<a href=\"HttpFoundation\/Response.php.html#274\">Response::sendHeaders<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#304\">Response::sendContent<\/a>"],[0,8,"<a href=\"HttpFoundation\/Response.php.html#318\">Response::send<\/a>"],[75,5,"<a href=\"HttpFoundation\/Response.php.html#353\">Response::setContent<\/a>"],[100,1,"<a href=\"HttpFoundation\/Response.php.html#371\">Response::getContent<\/a>"],[100,1,"<a href=\"HttpFoundation\/Response.php.html#385\">Response::setProtocolVersion<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#399\">Response::getProtocolVersion<\/a>"],[45.454545454545,5,"<a href=\"HttpFoundation\/Response.php.html#419\">Response::setStatusCode<\/a>"],[100,1,"<a href=\"HttpFoundation\/Response.php.html#450\">Response::getStatusCode<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#464\">Response::setCharset<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#478\">Response::getCharset<\/a>"],[0,5,"<a href=\"HttpFoundation\/Response.php.html#496\">Response::isCacheable<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#520\">Response::isFresh<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#533\">Response::isValidateable<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#547\">Response::setPrivate<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#564\">Response::setPublic<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#584\">Response::mustRevalidate<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#598\">Response::getDate<\/a>"],[100,1,"<a href=\"HttpFoundation\/Response.php.html#612\">Response::setDate<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#625\">Response::getAge<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#641\">Response::expire<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#657\">Response::getExpires<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#678\">Response::setExpires<\/a>"],[0,4,"<a href=\"HttpFoundation\/Response.php.html#702\">Response::getMaxAge<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#730\">Response::setMaxAge<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#748\">Response::setSharedMaxAge<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#768\">Response::getTtl<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#788\">Response::setTtl<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#806\">Response::setClientTtl<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#822\">Response::getLastModified<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#838\">Response::setLastModified<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#858\">Response::getEtag<\/a>"],[0,4,"<a href=\"HttpFoundation\/Response.php.html#873\">Response::setEtag<\/a>"],[0,10,"<a href=\"HttpFoundation\/Response.php.html#899\">Response::setCache<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#952\">Response::setNotModified<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#972\">Response::hasVary<\/a>"],[0,3,"<a href=\"HttpFoundation\/Response.php.html#984\">Response::getVary<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#1003\">Response::setVary<\/a>"],[0,8,"<a href=\"HttpFoundation\/Response.php.html#1023\">Response::isNotModified<\/a>"],[100,2,"<a href=\"HttpFoundation\/Response.php.html#1052\">Response::isInvalid<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#1064\">Response::isInformational<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#1076\">Response::isSuccessful<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#1088\">Response::isRedirection<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#1100\">Response::isClientError<\/a>"],[0,2,"<a href=\"HttpFoundation\/Response.php.html#1112\">Response::isServerError<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#1124\">Response::isOk<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#1136\">Response::isForbidden<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#1148\">Response::isNotFound<\/a>"],[0,3,"<a href=\"HttpFoundation\/Response.php.html#1162\">Response::isRedirect<\/a>"],[0,1,"<a href=\"HttpFoundation\/Response.php.html#1174\">Response::isEmpty<\/a>"],[100,2,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#46\">ResponseHeaderBag::__construct<\/a>"],[0,2,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#58\">ResponseHeaderBag::__toString<\/a>"],[0,2,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#73\">ResponseHeaderBag::replace<\/a>"],[100,2,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#87\">ResponseHeaderBag::set<\/a>"],[0,2,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#104\">ResponseHeaderBag::remove<\/a>"],[0,1,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#116\">ResponseHeaderBag::hasCacheControlDirective<\/a>"],[0,2,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#124\">ResponseHeaderBag::getCacheControlDirective<\/a>"],[0,1,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#136\">ResponseHeaderBag::setCookie<\/a>"],[0,4,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#150\">ResponseHeaderBag::removeCookie<\/a>"],[0,6,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#178\">ResponseHeaderBag::getCookies<\/a>"],[0,1,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#209\">ResponseHeaderBag::clearCookie<\/a>"],[0,10,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#228\">ResponseHeaderBag::makeDisposition<\/a>"],[20,9,"<a href=\"HttpFoundation\/ResponseHeaderBag.php.html#270\">ResponseHeaderBag::computeCacheControlValue<\/a>"],[34.48275862069,12,"<a href=\"HttpFoundation\/ServerBag.php.html#28\">ServerBag::getHeaders<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
